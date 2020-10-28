@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<!--Font Awesome--> 
+<script src="https://kit.fontawesome.com/38ec35a8a3.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<meta charset="utf-8">
+<link href="styles.css" rel="stylesheet">
+<title>FAQ iNHL-Gaming</title>
+</head>
+<script>$(function() {
+  // Sidebar toggle behavior
+  $('#sidebarCollapse').on('click', function() {
+    $('#sidebar, #content').toggleClass('active');
+  });
+});
+</script>
+
+<body>
+
+<!-- Navigation -->
+<div class="vertical-nav bg-white" id="sidebar">
+  <div class="py-4 px-3 mb-4 bg-light">
+    <div class="media d-flex align-items-center">
+      <h1 class="Header">FAQ-iNHL-Gaming</h1>
+      <div class="media-body"> </div>
+    </div>
+  </div>
+  <p class="text-grau font-weight-bold px-3 small pb-4 mb-0">Main</p>
+  <ul class="nav flex-column bg-white mb-0">
+    <li class="nav-item"> <a href="#" class="nav-link text-hervorheben text-dunkel-nav bg-light"> <i class="fa fa-th-large mr-3 text-primary fa-fw"></i> Home </a> </li>
+    <hr>
+    <div>
+      <li class="nav-item" data-toggle="collapse" data-target="#ts3collapse" aria-expanded="false" aria-controls="ts3collapse"> <a href="#" class="nav-link text-dunkel-nav"><i class="fab fa-teamspeak mr-3 text-primary fa-fw"></i>TeamSpeak 3</a> </li>
+      
+      <!--TeamSpeak 3 Sub Navigation START-->
+      <div class="collapse" id="ts3collapse">
+        <ul>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Home</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Keine Verbindung</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Kein Zugriff auf..</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Dateibrowser</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Private Channels</a> </li>
+        </ul>
+      </div>
+      
+      <!--TeamSpeak 3 Sub Navigation END-->
+      
+      <li class="nav-item" data-toggle="collapse" data-target="#mccollapse" aria-expanded="false" aria-controls="mccollapse"> <a href="#" class="nav-link text-dunkel-nav"><i class="fas fa-cubes mr-3 text-primary fa-fw"></i>MineCraft</a> </li>
+      
+      <!--Minecraft Sub Navigation START-->
+      <div class="collapse" id="mccollapse">
+        <ul>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Main</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Server</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Ich möchte Sache XYZ</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Ich habe Idee XYZ</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Bug Melden</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Spieler Melden</a> </li>
+        </ul>
+      </div>
+    </div>
+    <!--Minecraft Sub Navigation END-->
+    <div>
+      <li class="nav-item" data-toggle="collapse" data-target="#botcollapse" aria-expanded="false" aria-controls="botcollapse"> <a href="#" class="nav-link text-dunkel-nav"><i class="fas fa-robot mr-3 text-primary fa-fw"></i>Bots</a> </li>
+      
+      <!--Bots Sub Navigation START-->
+      <div class="collapse" id="botcollapse">
+        <ul>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Main</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Musik-Bot</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Ranksystem</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Hausmeister</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Support</a> </li>
+        </ul>
+      </div>
+    </div>
+  </ul>
+  <p class="text-grau font-weight-bold px-3 small py-4 mb-0">Weitere Seiten</p>
+  <ul class="nav flex-column bg-white mb-0">
+    <li class="nav-item"> <a href="#" class="nav-link text-dark font-italic"> <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i> Homepage </a> </li>
+    <li class="nav-item"> <a href="#" class="nav-link text-dark font-italic"> <i class="fa fa-bar-chart mr-3 text-primary fa-fw"></i> Status </a> </li>
+    <li class="nav-item"> <a href="#" class="nav-link text-dark font-italic"> <i class="fa fa-pie-chart mr-3 text-primary fa-fw"></i> Paste-Server </a> </li>
+    <li class="nav-item"> <a href="#" class="nav-link text-dark font-italic"> <i class="fa fa-line-chart mr-3 text-primary fa-fw"></i> TS3-Ranking </a> </li>
+  </ul>
+</div>
+<!-- End vertical navbar --> 
+
+<!--Divider-->
+<div class="page-content p-5" id="content"> 
+  <!-- Toggle KNopf -->
+  <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-dunkel">Klick mich!</small></button>
+  
+  <!-- Inalt -->
+  <h2 class="display-4 text-white"> Home</h2>
+  <p class="lead text-white mb-0">FAQ / Home </p>
+  <div class="separator"></div>
+  <div class="row text-content">
+    <div class="col-lg-7">
+      <p>
+      <h4>Willkommen</h4>
+      Diese Seite wurde extra erstellt um Häufig gestellte Fragen zu Dokumentieren und mögliche Lösungen einfacher für die Menge verfügbar zu machen. 
+      Weiterhin sollten Sie Probleme haben die wir nicht Dokumentiert haben oder sollte eine hier genannte Lösung nicht Funktionieren können Sie sich natürlich bei unseren Admin melden. Wir werden uns möglichst schnell um Ihre Angelegenheit kümmern.
+    
+      Wenn Sie ein Problem haben das wir noch nicht kennen, bitten wir Sie möglichst genaue Beschreibungen abzugeben um Ihnen so rasch wie möglich Helfen zu können. Des weiteren Helfen Sie uns damit unser FAQ weiter zu vervollständigen sollten neue Probleme auftauchen. 
+        
+      Ihnen stehen <b>zwei</b> möglichkeiten zur Kontaktaufnahme mit einem Supporter zur verfügung. 
+        <ul>
+        <br><li>E-Mail: <a href="mailto://report@inhl-gaming.eu">report@inhl-gaming.eu</a></li>
+        <li>TeamSpeak 3: <a href="ts3server://ts3.inhl-gaming.eu?port=9987">ts3.inhl-gaming.eu</a></li>
+        </ul>
+      Alternativ können Sie auch unsere Mail-Adresse bugreport@inhl-gaming.eu verwenden.
+      
+      Unsere Admins stehen ihnen gerne zur Verfügung!
+      
+      ## Wie Navigiere ich dieses FAQ?
+      
+      Die Navigation in dieser FAQ ist ziemlich einfach. Sie klicken im Navigationsmenü auf den Service, mit dem Sie ein Problem haben.
+      
+      Dies sollte Sie zu den allgemeinen Informationen des Dienstes führen.
+      Um eine Lösung für ein uns bekanntes Problem einzusehen, gibt es im Navigationsmenü Unterkapitel.
+      Alternativ werden einige in den Allgemeinen Infos des Dienstes verlinkt.
+      
+      Es besteht auch die möglichkeit einen unserer Admins zu bitten, Ihnen zu helfen und den Link zu dem oben genannten Unterkapitel zuzusenden. 
+      Haben Sie Verständnis wenn nicht immer ein Admin Zeit hat!
+      </p>
+      <p class="lead"></p>
+      <div class="bg-white p-5 rounded my-5 shadow-sm">
+        <p class="lead font-italic mb-0 text-muted"></p>
+      </div>
+      <p class="lead"></p>
+      <p class="lead"></p>
+      <p class="lead"></p>
+    </div>
+    <div class="col-lg-5">
+      <p class="lead"></p>
+      <p class="lead"></p>
+      <p class="lead"></p>
+      <p class="lead"></p>
+    </div>
+  </div>
+</div>
+</body>
+<footer>Raum für den Inhalt des neuen footer-Tags</footer>
+</html>
+ 

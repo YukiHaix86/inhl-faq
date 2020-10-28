@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Header {
+    font-family: "Acumin Pro Medium";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+.page-content {
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+  transition: all 0.4s;
+}
+
+/* for toggle behavior */
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -17rem;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+}
+
+
+
+body {
+     background: #599fd9;
+  background: -webkit-linear-gradient(to right, #599fd9, #c2e59c);
+  background-image: linear-gradient( 135deg, #141e30 10%, #61045f 100%);
+  
+ min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.separator {
+  margin: 3rem 0;
+  border-bottom: 1px dashed #fff;
+}
+
+
+.text-grau {
+  color: #8C8C8C;
+  text-transform: uppercase;
+}
+
+.text-dunkel-nav {
+    color: black;
+    font-family: "Rubrik New";
+    font-size: 16px;
+}
+
+.text-hervorheben {
+    font-size: 18px;
+}
+
+.text-dunkel {
+    font-family: "Acumin Pro Medium";
+    font-size: 15px;
+    }
+.text-content {
+    font-family:Quicksand;
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.subnavigation {
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}
