@@ -19,7 +19,6 @@
 </script>
 
 <body>
-
 <!-- Navigation -->
 <div class="vertical-nav bg-white" id="sidebar">
   <div class="py-4 px-3 mb-4 bg-light">
@@ -30,7 +29,7 @@
   </div>
   <p class="text-grau font-weight-bold px-3 small pb-4 mb-0">Main</p>
   <ul class="nav flex-column bg-white mb-0">
-    <li class="nav-item"> <a href="#" class="nav-link text-hervorheben text-dunkel-nav bg-light"> <i class="fa fa-th-large mr-3 text-primary fa-fw"></i> Home </a> </li>
+    <li class="nav-item"> <a href="index.html" class="nav-link text-hervorheben text-dunkel-nav bg-light"> <i class="fa fa-th-large mr-3 text-primary fa-fw"></i> Home </a> </li>
     <hr>
     <div>
       <li class="nav-item" data-toggle="collapse" data-target="#ts3collapse" aria-expanded="false" aria-controls="ts3collapse"> <a href="#" class="nav-link text-dunkel-nav"><i class="fab fa-teamspeak mr-3 text-primary fa-fw"></i>TeamSpeak 3</a> </li>
@@ -38,11 +37,11 @@
       <!--TeamSpeak 3 Sub Navigation START-->
       <div class="collapse" id="ts3collapse">
         <ul>
-          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="ts3main.html"> <i class="fas fa-angle-right"></i> Home</a> </li>
-          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Keine Verbindung</a> </li>
-          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Kein Zugriff auf..</a> </li>
-          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Dateibrowser</a> </li>
-          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Private Channels</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="#"> <i class="fas fa-angle-right"></i> Home</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="ts3errorcon.html"> <i class="fas fa-angle-right"></i> Keine Verbindung</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="ts3erroraccess.html"> <i class="fas fa-angle-right"></i> Kein Zugriff auf..</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="ts3errordata.html"> <i class="fas fa-angle-right"></i> Dateibrowser</a> </li>
+          <li class="subnavigation"> <a class="nav-link text-dunkel-nav" href="ts3privatechannels.html"> <i class="fas fa-angle-right"></i> Private Channels</a> </li>
         </ul>
       </div>
       
@@ -92,7 +91,7 @@
 <div class="page-content p-5" id="content"> 
   <!-- Toggle KNopf -->
   <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-dunkel">Klick mich!</small></button>
-  
+  <div class="main-div">
   <!-- Inalt -->
   <h2 class="display-4 text-white"> Home</h2>
   <p class="lead text-white mb-0">FAQ / Home </p>
@@ -101,18 +100,9 @@
     <div class="col-lg-7">
       <p>
       <h4>Willkommen</h4>
-      Diese Seite wurde extra erstellt um Häufig gestellte Fragen zu Dokumentieren und mögliche Lösungen einfacher für die Menge verfügbar zu machen. 
-      Weiterhin sollten Sie Probleme haben die wir nicht Dokumentiert haben oder sollte eine hier genannte Lösung nicht Funktionieren können Sie sich natürlich bei unseren Admin melden. Wir werden uns möglichst schnell um Ihre Angelegenheit kümmern.
-      
-      Wenn Sie ein Problem haben das wir noch nicht kennen, bitten wir Sie möglichst genaue Beschreibungen abzugeben um Ihnen so rasch wie möglich Helfen zu können. Des weiteren Helfen Sie uns damit unser FAQ weiter zu vervollständigen sollten neue Probleme auftauchen. 
-      
-      Ihnen stehen <b>zwei</b> möglichkeiten zur Kontaktaufnahme mit einem Supporter zur verfügung.
-      <ul>
-        <br>
-        <li>E-Mail: <a href="mailto://report@inhl-gaming.eu">report@inhl-gaming.eu</a></li>
-        <li>TeamSpeak 3: <a href="ts3server://ts3.inhl-gaming.eu?port=9987">ts3.inhl-gaming.eu</a></li>
-      </ul>
-      </p>
+        
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+        </p>
       
       <!--  <div class="bg-white p-5 rounded my-5 shadow-sm">
         <p class="lead font-italic mb-0 text-muted"></p>
@@ -124,7 +114,7 @@
     
     <div class="col-lg-5">
       <p><h4>Warum ist dieses FAQ entstanden?</h4>
-        Dieses FAQ ist aus Entscheidung entstanden das viele Nutzer oft Fragen haben die sich wiederhohlen oder wo Patches / Updates von einem Tag auf den anderen vieles massiv verändern oder gar unbrauchbar machen.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
         </p>
       </div>
     
@@ -132,24 +122,13 @@
   <div class="row text-content">
     <div class="col-lg-7">
       <p><h4> Wie Navigiere ich dieses FAQ? </h4>
-        
-        Die Navigation in dieser FAQ ist ziemlich einfach. Sie klicken im Navigationsmenü auf den Service, mit dem Sie ein Problem haben.
-        
-        Dies sollte Sie zu den allgemeinen Informationen des Dienstes führen.
-        Um eine Lösung für ein uns bekanntes Problem einzusehen, gibt es im Navigationsmenü Unterkapitel.
-        Alternativ werden einige in den Allgemeinen Infos des Dienstes verlinkt.
-        
-        Es besteht auch die möglichkeit einen unserer Admins zu bitten, Ihnen zu helfen und den Link zu dem oben genannten Unterkapitel zuzusenden. 
-        Haben Sie Verständnis wenn nicht immer ein Admin Zeit hat! </p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+        </p>
     </div>
   </div>
   <br>
 </div>
-<br>
-<div class="bikini">
-
-<footer class="footeeer">Made with <i class="far fa-heart"></i> by YukiHai in his spare time.</footer>
 </div>
-    <br>
 </body>
+<footer>Raum für den Inhalt des neuen footer-Tags</footer>
 </html>
